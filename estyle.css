@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	line-height: 1;
+    width: 100%;
+    
 }
 ol, ul {
 	list-style: none;
@@ -49,11 +52,6 @@ table {
 
 /*   */
 
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 120rem;
-    margin: 0 auto;
-}
 
 figure{
     display: flex;
@@ -61,26 +59,29 @@ figure{
 }
 
 img, banner-Estudando {
-    
+    height: 60vh;
+    width: 100%;   
 }
 
 section{
-    margin-left: 8.5rem;
-    margin-top: 6.5rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
     
 
 }
 
 .title_Teste {
 
-    font-size: 6.8rem;
+    font-size: 4rem;
     color: #B5442D;
+    
 }
 
 .title_Dg {
-    font-size: 3.9rem;
+    font-size: 1.7rem;
     color: #B5442D;
     font-weight: bold;
+    padding-bottom: 3vh;
 }
 
 .btn_Start 
@@ -89,25 +90,125 @@ section{
     justify-content: center;
     align-items: center;
     background-color: #FED077;
-    width: 18.3rem;
-    height: 6.6rem;
-    font-size: 2.8rem;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
     color: #4A4A4A;
     text-decoration: none;
     text-align: center;
 }
 
-.start {
-    
-}
-
 .btn {
     display: flex;
     justify-content: right;
-    margin-right: 8.5rem;
+    margin-right: 6rem;
 
 }
 
 
 
+
+
+
+/* pagina 2 */
+
+.main_Page2{
+    height:100vh;
+}
+
+.section1{
+    background-color: white;
+    width: 100%;
+    height: 7rem;
+}
+
+.section2{
+    background-color: #FED077 ;
+}
+
+.title_Pag2 {
+    color: #B5442D;
+    font-size: 28pt;
+    font-weight: bolder;
+    padding-top: 8vh;
+    padding-left: 20vh;
+    padding-bottom: 5vh;
+}
+
+.text_Pag2 {
+    color: #4A4A4A;
+    font-size: 20pt;
+    padding-left: 20vh;
+    font-weight: 500;
+    padding-bottom: 13vh;
+    line-height: 6vh;
+    padding-right: 20vh;
+}
+
+
+ul , .btn_Back_forward {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8vh;
+    z-index: 9999;
+}
+
+.title_Pag3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #dc8518;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+  
+
+.text_pag3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    width:40%;
+    position: absolute;
+    text-align: center;
+    padding-top: 300px
+    z-index: 99;
+    text-align: left;
+
+
+}
+
+
+.DivHead{
+    display: flex;
+    width: 100%;
+    height: 384px;
+    background-color: #FED077;
+    
+}
+
+.title_Pag4{
+    margin-left: 5rem;
+    font-size: 67px;
+    font-weight: bold;
+    color: #B5442D;
+    z-index: 99999;
+    padding: 200px;
+}
+
+.text_Pag4{
+    font-size: 40px;
+    color: #4A4A4A;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 96px;
+    line-height: 5rem;
+}
+
+mark{
+    background-color: #FED077;
+    color: #4a4a4a;
+}
 
