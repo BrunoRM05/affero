@@ -63,6 +63,14 @@ img, banner-Estudando {
     width: 100%;   
 }
 
+@media only screen and (max-width: 1300px) {
+   
+img, banner-Estudando {
+    height: auto;
+    width: 100%; }
+  }
+
+
 section{
     margin-left: 6rem;
     margin-top: 4rem;
@@ -90,7 +98,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: #FED077;
-    width: 8em;
+    width: 9em;
     height: 3em;
     font-size: 1.5rem;
     color: #4A4A4A;
